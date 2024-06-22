@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Todays News Network: Contact Us</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="header-container">
+      <img src="../images/tnn-logo.png" alt="TNN Logo" width="150" height="100">
+      <h1>Todays News Network</h1>
+    </header>
+    <nav>
+      <ul class="navbar">
+        <li><a href = "http://www.strathmore.edu/">Strathmore University</a></li>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "news.html">News</a></li>
+        <li><a href = "weather.html">Weather</a></li>
+        <li><a href = "contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section class="section">
+      <h3>Today's News Network Contact Us</h3>
+      <p>Write us a message below:</p>
+      <form method="POST" action="../php/add-message.php">
+         Email: <input type="text" name="email"> 
+         <br><br>
+         Message: <textarea id="messageArea" name="message" rows="3" cols="70"></textarea>
+         <br><br>
+         <input class="submitBtn" type="submit" value="Submit">
+      </form>
+    </section>
+    <footer class="footer-container">
+      <p>&copy; 2024 TNN. All rights reserved</p>
+    </footer>
+  </body>
+</html>
